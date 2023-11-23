@@ -1,0 +1,21 @@
+{
+    "name": "datatypescx",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "nodemon ./tests/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "publishConfig": {
+      "@MeekStudio:registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  
