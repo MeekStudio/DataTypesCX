@@ -394,7 +394,7 @@ class PhoneNumber extends DataType {
     
 }
 
-module.exports = {
+const DataTypes = {
     Stamp,
     Squid,
     ShortText,
@@ -405,4 +405,9 @@ module.exports = {
     NameSpace,
     PhoneNumber,
     EventLogger
+}
+
+module.exports = {
+    ...DataTypes,
+    DataTypes
 }
