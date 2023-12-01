@@ -354,7 +354,7 @@ class Squid {
     static test(value, {
         syntax = this.#syntax
     } = {}){
-        
+
         const errors = [];
         
         if(!syntax.test(value)){
