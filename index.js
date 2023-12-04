@@ -35,6 +35,7 @@ class Identifier extends DataType {
 
         if(typeof value === "string"){
             value = this.stripHTML(value);
+            value = value.toLowerCase();
 
         } else {
             errors.push("TYPE_MISMATCH")
