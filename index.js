@@ -484,7 +484,8 @@ const DataTypes = {
     Password,
     NameSpace,
     PhoneNumber,
-    EventLogger
+    EventLogger,
+    Identifier
 }
 
 module.exports = {
