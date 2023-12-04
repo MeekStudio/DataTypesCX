@@ -24,7 +24,7 @@ class Identifier extends DataType {
     static #minLength = 3;
     static #maxLength = 100;
     static #reservedWords = ["matter", "edition", "slot", "model", "editor", "user", "cx"];
-    static #syntax = /^([a-z][a-z0-9_]+[a-z])$/g;
+    static #syntax = /^([a-z][a-z0-9_]+[a-z])$/;
 
     static test(value){
         const errors = [];
